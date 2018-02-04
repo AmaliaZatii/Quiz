@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gjsilalahi.quizanakanak.LearnActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:text="International Top Hits"
+                android:textSize="@dimen/font_menu"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@android:dimen/thumbnail_height"
+                android:src="@drawable/pertanyaan" />
+
+            <TextView
+                android:layout_width="match_parent"
+             android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:text="{pertanyaan}"
+                android:textSize="@dimen/font_jwbn" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@android:dimen/thumbnail_height"
+                android:src="@drawable/tentang" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:text="{tentang}"
+                android:textSize="@dimen/font_jwbn" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@android:dimen/thumbnail_height"
+                android:src="@drawable/belajar" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="{belajar}"
+                android:textSize="@dimen/font_jwbn" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
